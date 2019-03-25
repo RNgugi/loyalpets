@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loyal Pets</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+
+  <a  href="index.html">Home</a>
+  <a href="frames.html">Categories</a>
+
+  <a  href="about.html">About</a>
+  <a  href="services.html">Services</a>
+  <a class="active" href="gallery.html">Galllery</a>
+    <a  href="contact.html">Contact Us</a>
+
+
+  
+</div>
+
+<div style="padding-left:16px">
+  <img src="loyal.png" alt="loyal pets">
+  <h2>Gallery</h2>
+<h4>See some of our pets here</h4>  
+  
+
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="dog1.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">This is Dog 1</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="dog2.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">This is Dog 2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="dog3.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">This is Dog 3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="dog4.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">This is Dog 4</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+</body>
+</html>
+
